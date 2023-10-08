@@ -219,7 +219,6 @@ body {
 
 .container {
   width: 375px;
-  height: 1500px;
   margin-top: 50px;
   margin-left: 600px;
   background-color: rgb(250, 249, 249);
@@ -613,150 +612,153 @@ body {
 }
 
 .contactsec {
-    width: 335px;
-    display: flex;
-    margin-top: 4000px;
-    height: 710px;
-    background-color: #6070FF;
-    border-top-left-radius: 65px;
-    padding: 20px;
-    position: relative;
-    overflow: hidden;
-  }
-  .contact-container {
-    padding-top: 60px;
-  }
-  .contacthead {
-    text-align: center;
-    color: white;
-    font-size: 38px;
-    font-family: 'Poppins';
-    font-weight: 700;
-    line-height: 52px;
-    word-wrap: break-word;
-  }
-  .contactpara {
-    text-align: center;
-    color: #EBEBFF;
-    font-size: 20px;
-    font-family: 'Poppins';
-    font-weight: 400;
-    line-height: 28px;
-    word-wrap: break-word;
-  }
-  .formdiv {
-    margin-top: 15px;
-  } 
-  .inpField {
-    margin-left: 10px;
-    margin-top: 15px;
-    width: 310px;
-    height: 45px;
-    border-radius: 8px;
-    border: 1px solid #CFD8DC;
-    font-size: 17px;
-  }
-  .textareadiv {
-    margin-left: 10px;
-    margin-top: 15px;
-    border-radius: 8px;
-    border: none;
-    color: #B3BAC5;
-    width: 295px;
-    height: 150px;
-    padding: 10px;
-    font-family: 'Poppins';
-  }
-   textarea {
-    resize: none;
-   }
-  button {
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 150px;
-    text-align: center;
-    height: 50px;
-    color: #6070FF;
-    background-color: white;
-    font-size: 17px;
-    border-radius: 8px;
-    border: none;
-    font-family: 'Poppins'; 
-    font-weight: 500;
+  width: 335px;
+  display: flex;
+  margin-top: 4000px;
+  height: 710px;
+  background-color: #6070ff;
+  border-top-left-radius: 65px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
 
-  }
+.contact-container {
+  padding-top: 60px;
+}
 
-  .S13-a {
-    width: 20px;
-    height: 20px;
-    left: 155px;
-    top: 60px;
-    position: absolute;
-    background: #7F8CFF;
-    border-radius: 9999px;
-  }
+.contacthead {
+  text-align: center;
+  color: white;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 52px;
+  word-wrap: break-word;
+}
 
-  .S16-a {
-    width: 90px;
-    height: 90px;
-    left: 324px;
-    top: 52px;
-    position: absolute;
-    background: white;
-    border-radius: 9999px;
-  }
-  
-  .S19-a {
-    width: 120.58px;
-    height: 18.02px;
-    left: 300px;
-    top: 60px;
-    position: absolute;
-    transform: rotate(-27deg);
-    transform-origin: 0 0;
-    background: #7F8CFF;
-  }
-   
-  .S17-a {
-    width: 52px;
-    height: 70px;
-    left: 352px;
-    top: 62px;
-    position: absolute;
-    background: #6070FF;
-    transform: rotate(-85deg);
-    border-radius: 9999px;
-    overflow: hidden;
-  }
+.contactpara {
+  text-align: center;
+  color: #ebebff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+}
 
-  .S18-a {
-    width: 80.58px;
-    height: 29.02px;
-    left: 330px;
-    top: 170.79px;
-    position: absolute;
-    background: #6070FF;
-    transform: rotate(-60.62deg);
-    transform-origin: 0 0;
-  }
+.formdiv {
+  margin-top: 15px;
+}
 
-  .S3-a {
-    width: 72.06px;
-    height: 13.18px;
-    left: 251.82px;
-    top: 651px;
-    position: absolute;
-    transform: rotate(35.34deg);
-    transform-origin: 0 0;
-    background: #7f8cff;
-  }
-  
-  .S4-a {
-    width: 32px;
-    height: 32px;
-    left: 242px;
-    top: 675.1px;
-    position: absolute;
-    background: white;
-    border-radius: 9999px;
-  }
+.inpField {
+  margin-left: 10px;
+  margin-top: 15px;
+  width: 310px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  font-size: 17px;
+}
+
+.textareadiv {
+  margin-left: 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: none;
+  color: #b3bac5;
+  width: 295px;
+  height: 150px;
+  padding: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  color: #6070ff;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+}
+
+.S13-a {
+  width: 20px;
+  height: 20px;
+  left: 155px;
+  top: 60px;
+  position: absolute;
+  background: #7f8cff;
+  border-radius: 9999px;
+}
+
+.S16-a {
+  width: 90px;
+  height: 90px;
+  left: 324px;
+  top: 52px;
+  position: absolute;
+  background: white;
+  border-radius: 9999px;
+}
+
+.S19-a {
+  width: 120.58px;
+  height: 18.02px;
+  left: 300px;
+  top: 60px;
+  position: absolute;
+  transform: rotate(-27deg);
+  transform-origin: 0 0;
+  background: #7f8cff;
+}
+
+.S17-a {
+  width: 52px;
+  height: 70px;
+  left: 352px;
+  top: 62px;
+  position: absolute;
+  background: #6070ff;
+  transform: rotate(-85deg);
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.S18-a {
+  width: 80.58px;
+  height: 29.02px;
+  left: 330px;
+  top: 170.79px;
+  position: absolute;
+  background: #6070ff;
+  transform: rotate(-60.62deg);
+  transform-origin: 0 0;
+}
+
+.S3-a {
+  width: 72.06px;
+  height: 13.18px;
+  left: 251.82px;
+  top: 651px;
+  position: absolute;
+  transform: rotate(35.34deg);
+  transform-origin: 0 0;
+  background: #7f8cff;
+}
+
+.S4-a {
+  width: 32px;
+  height: 32px;
+  left: 242px;
+  top: 675.1px;
+  position: absolute;
+  background: white;
+  border-radius: 9999px;
+}
