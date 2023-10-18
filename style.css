@@ -1068,7 +1068,7 @@ button {
     margin-top: -20px;
   }
 
-  .field {
+  .inpfield {
     display: flex;
     margin-left: 500px;
     width: 440px;
