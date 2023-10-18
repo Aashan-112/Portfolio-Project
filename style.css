@@ -2,6 +2,13 @@ body {
   background-color: #ebebff;
   font-family: 'Poppins', sans-serif;
 }
+.menu {
+  display: flex;
+}
+div li {
+  list-style-type: none;
+  margin-left: 20px;
+}
 
 .Shapes {
   width: 100%;
@@ -108,17 +115,6 @@ body {
   background: white;
 }
 
-.S10 {
-  width: 21.99px;
-  height: 9.3px;
-  left: -14px;
-  top: 39.49px;
-  position: absolute;
-  transform: rotate(-46.14deg);
-  transform-origin: 0 0;
-  background: #ebebff;
-}
-
 .S11 {
   width: 34px;
   height: 32px;
@@ -141,6 +137,17 @@ body {
   background: white;
 }
 
+.S10 {
+  width: 21.99px;
+  height: 9.3px;
+  left: -14px;
+  top: 39.49px;
+  position: absolute;
+  transform: rotate(-46.14deg);
+  transform-origin: 0 0;
+  background: #ebebff;
+}
+
 .S13 {
   width: 10px;
   height: 10px;
@@ -150,6 +157,7 @@ body {
   background: white;
   border-radius: 9999px;
   border: 1px #cbcdff solid;
+  border: 3px solid darkgreen;
 }
 
 .S14 {
@@ -160,7 +168,7 @@ body {
   position: absolute;
   background: white;
   border-radius: 9999px;
-  border: 1px #cbcdff solid;
+  border: 1px #EBEBFF solid;
 }
 
 .S15 {
@@ -220,7 +228,6 @@ body {
 .container {
   width: 375px;
   margin-top: 50px;
-  margin-left: 600px;
   background-color: rgb(250, 249, 249);
 }
 
@@ -237,7 +244,7 @@ body {
   color: #3498db;
   font-size: 16px;
   margin: 10px;
-  padding-left: 15px;
+  padding-left: 15px; 
   padding-right: 15px;
 }
 
@@ -297,13 +304,13 @@ body {
 
 .worksection {
   width: 375px;
-  height: 4200px;
+  height: 3200px;
   background-color: rgb(250, 249, 249);
   position: absolute;
 }
 
 #cards1 {
-  height: 560px;
+  height: 520px;
 }
 
 .cards {
@@ -326,7 +333,6 @@ body {
 
 .heading {
   width: 100%;
-  height: 100%;
   line-height: 44px;
   color: #172b4d;
   font-size: 32px;
@@ -385,7 +391,6 @@ body {
 
 .innpara {
   width: 300px;
-  height: 100%;
   margin-left: 8px;
   color: #344563;
   font-size: 15px;
@@ -440,7 +445,7 @@ body {
 }
 
 #cards2 {
-  height: 605px;
+  height: 520px;
 }
 
 #wrapper {
@@ -448,7 +453,7 @@ body {
 }
 
 #cards3 {
-  height: 560px;
+  height: 520px;
 }
 
 #wrapper3 {
@@ -456,7 +461,7 @@ body {
 }
 
 #cards4 {
-  height: 605px;
+  height: 520px;
 }
 
 .abtself {
@@ -490,6 +495,10 @@ body {
   color: #3498db;
   margin-top: 20px;
   margin-left: 35px;
+}
+.parasdiv1 {
+  width: 290px;
+  margin-right: 40px;
 }
 
 .icons1 {
@@ -761,4 +770,363 @@ button {
   position: absolute;
   background: white;
   border-radius: 9999px;
+}
+
+
+/* Responsive */
+ @media only screen and (max-width: 1980px){
+  .container {
+    width: 1490px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .flex-container {
+    width: 1490px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .Shapes {
+    width: 1340px;
+    position: relative;
+  }
+  .sec2 {
+    width: 1490px;
+  }
+  .parag {
+    margin-top: 150px;
+    margin-right: 480px;
+   }
+  .parasdiv {
+    width: 690px;
+  }  
+  .S11 {
+    width: 38px;
+    height: 38px;
+    left: 30px;
+    top: 40.1px;
+  }
+  
+  .S12 {
+    width: 41px;
+    height: 20.02px;
+    left: 38px;
+    top: 32.79px;
+    transform: rotate(20.62deg);
+    border-top-left-radius: 30px;
+  }
+
+  .S10 {
+    width: 50.99px;
+    left: 8px;
+    top: 68.49px;
+    transform: rotate(-54.14deg);
+  }
+  .S16 {
+    width: 130px;
+    height: 130px;
+    left: 1140px;
+    top: 62.24px;
+  }
+  
+  .S17 {
+    width: 75px;
+    height: 75px;
+    left: 1170px;
+    top: 90px;
+    transform: rotate(-50deg);
+  }
+  
+  .S18 {
+    width: 145.58px;
+    height: 54.02px;
+    left: 1155px;
+    top: 190.79px;
+    transform: rotate(-42.62deg);
+  }
+  
+  .S19 {
+    width: 135.58px;
+    height: 30.02px;
+    left: 1100px;
+    top: 71.79px;
+    transform: rotate(-27deg);
+  }
+  .S13 {
+    width: 15px;
+    height: 15px;
+    left: 930px;
+    border: 1px #cbcdff solid;
+  }
+  .S1 {
+    width: 28.46px;
+    left: 613.18px;
+    transform: rotate(-24.77deg);
+  }
+  
+  .S2 {
+    width: 12px;
+    height: 12px;
+    left: 630.75px;
+    top: 64.81px;
+  }
+  .S7 {
+    width: 38.1px;
+    height: 38.1px;
+    top: 530.44px;
+    left: 290px;
+  }
+  
+  .S8 {
+    width: 23px;
+    height: 28px;
+    left: 266.4px;
+    top: 542px;
+  }
+  
+  .S9 {
+    left: 250.82px;
+    top: 545px;
+  }
+  .S5 {
+    left: 280px;
+    top: 515px;
+  }
+  
+  .S6 {
+    left: 275px;
+    top: 507px;
+    transform: rotate(12.34deg);
+  }
+  .S15 {
+    top: 300px;
+  }
+  .S14 {
+    width: 45px;
+    height: 45px;
+    left: 1000px;
+    top: 400px;
+  }
+  .S3 {
+    width: 84.06px;
+    height: 15.18px;
+    left: 625.82px;
+    top: 495px;
+  }
+  
+  .S4 {
+    width: 24px;
+    height: 24px;
+    left: 680px;
+    top: 498px;
+  }
+  .cards {
+    margin-left: 145px;
+    display: flex;
+    width: 1180px;
+    height: 300px;
+  }
+  .CardPara {
+    padding: 50px;
+  }
+  .heading {
+    font-size: 42px;
+  }
+  .wrapper {
+    width: 300px;
+  }
+  .innpara {
+    width: 400px;
+  }
+  .landiv {
+    margin-top: -10px;
+  }
+  .imge {
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+  }
+  .landiv {
+    display: flex;
+  }
+  .abtself {
+    width: 1490px;
+    display: flex;
+    height: 600px;
+  }
+  .headd {
+    width: 1000px;
+    font-size: 42;
+    padding: 140px;
+    line-height: 1px;
+  }
+  .paray {
+    width: 500px;
+    margin-left: 165px;
+    margin-top: -90px;
+  }
+  .icons1 {
+    margin-left: 170px;
+  }
+  #sty1 {
+    margin-left: 170px;
+  }
+  .seeprodiv1 {
+    margin-left: 165px;
+  }
+  .sec1 {
+    width: 800px;
+  }
+  .headinggg {
+    margin-top: 160px;
+  }
+  .langhead {
+    margin-top: -50px;
+    margin-left: -80px;
+  }
+  .iconimg {
+    margin-top: -50px;
+    margin-left: 280px;
+  }
+  .Lang {
+    display: flex;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: -100px;
+  }
+  .Langimg {
+    width: 46px;
+    height: 46px;
+  }
+  .LangLine {
+    font-size: 16px;
+  }
+  .LangName {
+    margin-left: 25px;
+    padding: 5px;
+    gap: 10px;
+  }
+  .lsec {
+    margin-top: 0px;
+  }
+  .langhead1 {
+    margin-left: -85px;
+  }
+  .iconimg1 {
+    margin-left: 280px;
+  }
+  .divider {
+    width: 450px;
+    margin-left: -90px;
+  }
+  .contactsec {
+    width: 1450px;
+    margin-top: 3200px;
+    height: 760px;
+  }
+  .contacthead {
+    margin-left: 320px;
+  }
+  .contactpara {
+    width: 400px;
+    margin-left: 520px;
+    margin-top: -20px;
+  }
+  .inpField {
+    display: flex;
+    margin-left: 500px;
+    width: 440px;
+  }
+  .textareadiv {
+    margin-left: 500px;
+    width: 425px;
+    display: flex;
+  }
+  #lbtn {
+    margin-top: 30px;
+    margin-left: 650px;
+  }
+  .S3-a {
+    left: 100.82px;
+    top: 330px;
+  }
+  
+  .S4-a {
+    width: 26px;
+    height: 26px;
+    left: 100px;
+    top: 360.1px;
+  }
+  .S16-a {
+    left: 1230px;
+    top: 110px;
+  }
+  
+  .S19-a {
+    width: 100.58px;
+    height: 22.02px;
+    left: 1200px;
+    top: 120px;
+  }
+  
+  .S17-a {
+    width: 40px;
+    height: 40px;
+    left: 1255px;
+    top: 135px;
+  }
+  
+  .S18-a {
+    width: 100.58px;
+    height: 42.02px;
+    left: 1240px;
+    top: 195.79px;
+    transform: rotate(-40.62deg);
+  }
+  .S13-a {
+    width: 24px;
+    height: 24px;
+    left: 440px;
+    top: 80px;
+  }
+  .S13-a1 {
+    background-color: #7F8CFF;
+    width: 45px;
+    height: 45px;
+    margin-top: -180px;
+    margin-left: 1056px;
+    border-radius: 9999px;
+  }
+  .S11-1 {
+    width: 32px;
+    height: 32px;
+    left: 360px;
+    top: 700.1px;
+    position: absolute;
+    background: #7F8CFF;
+    border-radius: 9999px;
+    transform: rotate(10.14deg);
+  }
+  
+  .S12-1 {
+    width: 35.58px;
+    height: 18.02px;
+    left: 370px;
+    top: 692.79px;
+    position: absolute;
+    transform: rotate(25.62deg);
+    transform-origin: 0 0;
+    background: #6070ff;
+    border-top-left-radius: 16px;
+  }
+  
+  .S10-1 {
+    width: 45.99px;
+    height: 7.3px;
+    left: 342px;
+    top: 720.49px;
+    position: absolute;
+    transform: rotate(-52.14deg);
+    transform-origin: 0 0;
+    background: #ebebff;
+  }
 }
