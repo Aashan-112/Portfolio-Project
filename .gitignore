@@ -1,3 +1,2 @@
-Node_modules
-
-test.md
+# .gitignore
+node_modules/
